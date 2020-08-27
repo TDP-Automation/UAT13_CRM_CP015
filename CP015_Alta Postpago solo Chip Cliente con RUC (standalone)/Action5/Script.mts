@@ -61,10 +61,10 @@ imagenToWord "Validación de Datos Exitosa", RutaEvidencias() & "ValidacionDatos
 If Window("Ejecutivo de interacción").InsightObject("InsightObject_8").Exist = True Then
 		Window("Ejecutivo de interacción").InsightObject("InsightObject_8").Click
 End If
-
-If Window("Ejecutivo de interacción").InsightObject("InsightObject_25").Exist= True Then
-	Window("Ejecutivo de interacción").InsightObject("InsightObject_25").Click
-End If
+'
+'If Window("Ejecutivo de interacción").InsightObject("InsightObject_25").Exist= True Then
+'	Window("Ejecutivo de interacción").InsightObject("InsightObject_25").Click
+'End If
 
 End Sub
 Sub Validacion()
