@@ -35,8 +35,6 @@ DataTable("s_Resultado","A_StandAlone") ="Fallido"
 DataTable("s_Detalle","A_StandAlone") ="Error al consultar servicio web"
 Reporter.ReportEvent micFail, DataTable("s_Resultado","A_StandAlone"), DataTable("s_Detalle","A_StandAlone")
 ExitTestIteration
-ExitTestIteration
-'RunAction "Log_Out", oneIteration
 End If
 Window("Ejecutivo de interacción").CaptureBitmap RutaEvidencias() & "ScoreCalculado.png", True
 imagenToWord "Score Calculado", RutaEvidencias() & "ScoreCalculado.png"
